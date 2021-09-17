@@ -19,7 +19,7 @@ const Navbar = () => {
       			<div className="App">
        		 	<Switch>
           			<Route exact path="/" component={Home} />
-         			 <Route path="/pizza" component={PizzaForm} />
+         			 <Route exact path="/pizza" component={PizzaForm} />
        		 	</Switch>
      			</div>
     		</Router>
